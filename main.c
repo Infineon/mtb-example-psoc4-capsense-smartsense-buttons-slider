@@ -53,8 +53,8 @@
 /*******************************************************************************
  * Macros
  *******************************************************************************/
-#define CAPSENSE_INTR_PRIORITY    (3u)
-#define CY_ASSERT_FAILED          (0u)
+#define CAPSENSE_INTR_PRIORITY           (3u)
+#define CY_ASSERT_FAILED                 (0u)
 
 /* EZI2C interrupt priority must be higher than CAPSENSE interrupt */
 #define EZI2C_INTR_PRIORITY       (2u)
@@ -146,8 +146,8 @@ static void initialize_capsense(void)
     /* CAPSENSE interrupt configuration */
     const cy_stc_sysint_t capsense_interrupt_config =
     {
-            .intrSrc = CYBSP_CSD_IRQ,
-            .intrPriority = CAPSENSE_INTR_PRIORITY,
+        .intrSrc = CYBSP_CSD_IRQ,
+        .intrPriority = CAPSENSE_INTR_PRIORITY,
     };
 
     /* Capture the CSD HW block and initialize it to the default state. */
@@ -168,7 +168,7 @@ static void initialize_capsense(void)
     {
         /* This status could fail before tuning the sensors correctly.
          * Ensure that this function passes after the CAPSENSE sensors are tuned
-         * as per procedure give in the Readme.md file.
+         * as per procedure given in the README.md file.
          */
     }
 }
