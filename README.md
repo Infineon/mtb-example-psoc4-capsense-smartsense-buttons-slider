@@ -6,12 +6,13 @@ This document provides a high-level overview of the CSD widgets tuning flow and 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc4-capsense-smartsense-buttons-slider)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzc1MzIiLCJTcGVjIE51bWJlciI6IjAwMi0zNzUzMiIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IDQ6IENBUFNFTlNFJnRyYWRlOyBTbWFydFNlbnNlIGJ1dHRvbnMgc2xpZGVyIiwicmlkIjoicmFqYW5uYWdhdXRhIiwiRG9jIHZlcnNpb24iOiIyLjAuMCIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
+[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzc1MzIiLCJTcGVjIE51bWJlciI6IjAwMi0zNzUzMiIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IDQ6IENBUFNFTlNFJnRyYWRlOyBTbWFydFNlbnNlIGJ1dHRvbnMgc2xpZGVyIiwicmlkIjoiZ2F1dGFtLnJhamFubmFAaW5maW5lb24uY29tIiwiRG9jIHZlcnNpb24iOiIyLjAuMSIsIkRvYyBMYW5ndWFnZSI6IkVuZ2xpc2giLCJEb2MgRGl2aXNpb24iOiJNQ0QiLCJEb2MgQlUiOiJJQ1ciLCJEb2MgRmFtaWx5IjoiUFNPQyJ9)
 
 
 ## Requirements
 
 - [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.3 (tested with v3.3)
+- [ModusToolbox&trade; CAPSENSE&trade; and Multi-Sense Pack](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.modustoolboxpackmultisense) for [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.7 or later
 - Board support package (BSP) minimum required version: 3.1.0
 - Programming language: C
 - Associated parts: [PSOC&trade; 4000S, PSOC&trade; 4100S Plus, and PSOC&trade; 4500S](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-4-32-bit-arm-cortex-m0-mcu/)
@@ -743,6 +744,7 @@ Document title: *CE237532* - *PSOC&trade; 4: CAPSENSE&trade; SmartSense buttons 
  1.0.0   |  New code example
  1.1.0   |  Added support for CY8CKIT-045S
  2.0.0   |  Added LED output for all the supported kits <br> Added Smart I/O for CY8CKIT-149 and CY8CKIT-145-40XX
+ 2.0.1   |  Minor README updates
 <br>
 
 
